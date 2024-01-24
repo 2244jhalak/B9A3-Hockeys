@@ -19,7 +19,7 @@
 <body class="font-manrope">
     <header class="container mx-auto">
         <!-- Navbar -->
-        <nav class="navbar bg-base-100">
+        <nav class="navbar bg-base-100 my-5">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -34,19 +34,24 @@
                  
                 </ul>
                 
+                
               </div>
               <a class="text-3xl font-extrabold lg:ml-6">Hockey's</a>
             </div>
             <div class="navbar-center hidden lg:flex">
+             
               <ul class="menu menu-horizontal px-1">
                   <li><a>Home</a></li>
                   <li><a>About</a></li>
                   <li><a>Pages</a></li>
                   <li><a>Blog</a></li>
                   <li><a>Contact</a></li>
+                 
                 
               </ul>
               <i class="fa-solid fa-magnifying-glass"></i>
+              
+              
             </div>
             <div class="navbar-end">
                 
@@ -54,7 +59,7 @@
             </div>
         </nav>
         <!-- Banner -->
-        <section>
+        <section class="my-10">
             <div class="carousel w-full lg:relative">
                 <div id="slide1" class="carousel-item relative w-full">
                   <img src="Images/1.png" class="w-full lg:h-[550px] h-200px" />
@@ -72,18 +77,86 @@
                 </div> 
                 
               </div>
-              <div class="lg:h-[150px] h-[200px] bg-black lg:w-2/5 w-full rounded-xl text-white space-y-2 lg:p-6 p-4 lg:absolute lg:bottom-16 lg:right-16">
+              <div class="lg:h-[150px] h-[220px] bg-black lg:w-2/5 w-full rounded-xl text-white space-y-2 lg:p-6 p-4 lg:absolute lg:bottom-16 lg:right-16">
                 <h4 class="text-2xl font-semibold">Meet all the heroes from the field</h4>
-                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p>Step onto the field with us and meet the true heroes of our game. Our every player is a hero in their own right, weaving a tapestry of skill, dedication, and unwavering team spirit. </p>
 
               </div>
         </section>
     </header>
     <main>
+      <!-- Radial Progress section -->
+      <section class="container mx-auto my-10">
+        <h2 class="text-center text-3xl font-extrabold mb-5">Professional Hockeys Club</h2>
+        <p class="text-center mb-10">Welcome to our distinguished Professional Hockey Club, where the pursuit of excellence meets a rich tradition of the sport.</p>
+        <div class="grid lg:grid-cols-4 grid-cols-1">
+            <div class="space-y-4 mb-10">
+                <div class="flex justify-center">
+                    <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar"><span class="text-black">87%</span></div>
+                </div>
+                <h5 class="text-center font-semibold">Prayer Facility</h5>
+                <p class="text-center">Providing a prayer facility demonstrates a commitment to inclusivity and ensures that individuals of various faiths feel welcome and accommodated.</p>
+            </div>
+            <div class="space-y-4 mb-10">
+                <div class="flex justify-center">
+                    <div class="radial-progress text-green-500" style="--value:95;" role="progressbar"><span class="text-black">95%</span></div>
+                </div>
+                <h5 class="text-center font-semibold">Experienced Coach</h5>
+                <p class="text-center">We usually have a team of seasoned coaches who work at different levels<br> of the organization.</p>
+            </div>
+            <div class="space-y-4 mb-10">
+                <div class="flex justify-center">
+                    <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar"><span class="text-black">90%</span></div>
+                </div>
+                <h5 class="text-center font-semibold">Senior Player</h5>
+                <p class="text-center">Our senior players may act as mentors to younger teammates, offering advice on skill development, game strategy, and dealing with the pressures of competitive sports.</p>
+            </div>
+            <div class="space-y-4 mb-10">
+                <div class="flex justify-center">
+                    <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar"><span class="text-black">80%</span></div>
+                </div>
+                <h5 class="text-center font-semibold">Training Ground</h5>
+                <p class="text-center">We have one or more well-maintained hockey fields with the appropriate <br>surface (natural grass or artificial turf)<br> and dimensions.</p>
+            </div>
+        </div>
+    </section>  
+     <!-- Program Section Added -->
+     <section class="container mx-auto my-10">
+      <h2 class="text-center text-3xl font-extrabold mb-5">Program Sections</h2>
+      <p class="text-center mb-10">Embark on a comprehensive journey of skill development, camaraderie, and success through our diverse Program Sections</p>
+  <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-4">
+      
+      <div class="relative mb-4 lg:mb-0">
+          <img class="w-full h-[300px] brightness-75" src="Images/2.png" alt="">
+          <div class="absolute top-6 left-6 lg:pt-10 lg:pr-4 space-y-4">
+              <h3 class="text-2xl font-bold text-white">Junior Program</h3>
+              <p class="text-white">We delivers a weekly programme of hockey coaching to children aged 6-16. Sessions run every Saturday morning and are part of an initiative to get more children active and engaged within a great team sport.</p>
+              <button class="bg-[#FF4240;] text-white px-4 py-3 rounded-lg">Register Now!</button>
+          </div>
+      </div>
+      <div class="relative mb-4 lg:mb-0">
+          <img class="w-full h-[300px] brightness-75" src="Images/3.png" alt="">
+          <div class="absolute top-6 left-6 lg:pt-10 lg:pr-4 space-y-4">
+              <h3 class="text-2xl font-bold text-white">Teenager Program</h3>
+              <p class="text-white">Embracing the spirit of youth and the future of the game, our hockey club proudly presents a dynamic Teenager Program designed to nurture and develop the next generation of hockey talent. </p>
+              <button class="bg-[#FF4240;] text-white px-4 py-3 rounded-lg">Register Now!</button>
+          </div>
+      </div>
+      <div class="relative lg:col-span-2">
+          <img class="w-full lg:h-[500px] h-[300px] brightness-75" src="Images/4.png" alt="">
+          <div class="absolute top-6 lg:top-56 left-6 lg:pt-10 lg:pr-96 space-y-4">
+              <h3 class="text-2xl font-bold text-white">Professional Program</h3>
+              <p class="text-white">We offer comprehensive programs that cover various aspects, including player development, coaching, scouting, sports science, and community engagement.</p>
+              <button class="bg-[#FF4240;] text-white px-4 py-3 rounded-lg">Register Now!</button>
+          </div>
+      </div>
+  </div>
+
+  </section>
         <!-- Products -->
-        <section class="container mx-auto my-20">
-            <h3 class="text-center font-bold text-3xl mb-3">Our New Products</h3>
-            <p class="text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+        <section class="container mx-auto my-10">
+            <h3 class="text-center font-extrabold text-3xl mb-3">Our New Products</h3>
+            <p class="text-center mb-8">Excitement is in the air as we proudly introduce our latest lineup of cutting-edge products.</p>
             <div class="gap-4 grid grid-cols-1 lg:grid-cols-2">
               <!-- 1st card -->
                 <div class="p-4 border-2 rounded-xl flex lg:flex-row flex-col">
@@ -102,8 +175,8 @@
 
                         
                       </div>
-                      <h5 class="lg:ml-4 font-bold">World Cup Flags Football</h5>
-                      <p class="lg:ml-4">Dolor sit amet consectetur. Ut urna diam<br> quis sagittis.</p>
+                      <h5 class="lg:ml-4 font-bold">World Cup Hockey Jersey</h5>
+                      <p class="lg:ml-4">Gear up for the intensity of the game <br>with our World Cup Hockey Jersey</p>
                       <div class="lg:ml-4 flex flex-col lg:flex-row">
                         <div class=""><h5 class="text-[#ff4240]">Price - $22.00</h5></div>
                         <div class="flex items-center lg:ml-4"><i class="fa-solid fa-cart-shopping mr-2"></i><p>Delivery Fee : Free</p></div>
@@ -129,7 +202,7 @@
                     
                   </div>
                   <h5 class="lg:ml-4 font-bold">World Cup Flags Football</h5>
-                  <p class="lg:ml-4">Dolor sit amet consectetur. Ut urna diam<br> quis sagittis.</p>
+                  <p class="lg:ml-4">Immerse yourself in the global celebration of<br> football with our World Cup Flags Football</p>
                   <div class="lg:ml-4 flex flex-col lg:flex-row">
                     <div class=""><h5 class="text-[#ff4240]">Price - $22.00</h5></div>
                     <div class="flex items-center lg:ml-4"><i class="fa-solid fa-cart-shopping mr-2"></i><p>Delivery Fee : Free</p></div>
@@ -156,7 +229,7 @@
                     
                   </div>
                   <h5 class="lg:ml-4 font-bold">Cap For Hockeys</h5>
-                  <p class="lg:ml-4">Dolor sit amet consectetur. Ut urna diam<br> quis sagittis.</p>
+                  <p class="lg:ml-4">Discover unparalleled protection with <br>our cutting-edge hockey caps</p>
                   <div class="lg:ml-4 flex flex-col lg:flex-row">
                     <div class=""><h5 class="text-[#ff4240]">Price - $22.00</h5></div>
                     <div class="flex items-center lg:ml-4"><i class="fa-solid fa-cart-shopping mr-2"></i><p>Delivery Fee : Free</p></div>
@@ -181,8 +254,8 @@
 
                     
                   </div>
-                  <h5 class="lg:ml-4 font-bold">World Cup Flags Football</h5>
-                  <p class="lg:ml-4">Dolor sit amet consectetur. Ut urna diam<br> quis sagittis.</p>
+                  <h5 class="lg:ml-4 font-bold">World Cup Hockey Jersey</h5>
+                  <p class="lg:ml-4">Gear up for the intensity of the game <br>with our World Cup Hockey Jersey</p>
                   <div class="lg:ml-4 flex flex-col lg:flex-row">
                     <div class=""><h5 class="text-[#ff4240]">Price - $22.00</h5></div>
                     <div class="flex items-center lg:ml-4"><i class="fa-solid fa-cart-shopping mr-2"></i><p>Delivery Fee : Free</p></div>
@@ -207,8 +280,8 @@
 
                     
                   </div>
-                  <h5 class="lg:ml-4 font-bold">World Cup Flags Football</h5>
-                  <p class="lg:ml-4">Dolor sit amet consectetur. Ut urna diam<br> quis sagittis.</p>
+                  <h5 class="lg:ml-4 font-bold">World Cup Hockey Helmet</h5>
+                  <p class="lg:ml-4">Experience the pinnacle of safety and performance<br> with our World Cup Hockey Helmet</p>
                   <div class="lg:ml-4 flex flex-col lg:flex-row">
                     <div class=""><h5 class="text-[#ff4240]">Price - $22.00</h5></div>
                     <div class="flex items-center lg:ml-4"><i class="fa-solid fa-cart-shopping mr-2"></i><p>Delivery Fee : Free</p></div>
@@ -234,7 +307,7 @@
                       
                     </div>
                     <h5 class="lg:ml-4 font-bold">World Cup Flags Football</h5>
-                    <p class="lg:ml-4">Dolor sit amet consectetur. Ut urna diam<br> quis sagittis.</p>
+                    <p class="lg:ml-4">Immerse yourself in the global celebration of<br> football with our World Cup Flags Football</p>
                     <div class="lg:ml-4 flex flex-col lg:flex-row">
                       <div class=""><h5 class="text-[#ff4240]">Price - $22.00</h5></div>
                       <div class="flex items-center lg:ml-4"><i class="fa-solid fa-cart-shopping mr-2"></i><p>Delivery Fee : Free</p></div>
@@ -246,9 +319,9 @@
 
         </section>
         <!-- FAQ -->
-        <section class="container mx-auto my-20">
-            <h3 class="text-center font-bold text-3xl mb-3">Clients Question</h3>
-            <p class="text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        <section class="container mx-auto my-10">
+            <h3 class="text-center font-extrabold text-3xl mb-3">Clients Question</h3>
+            <p class="text-center">Have you frequently been asked this question?</p>
             <div class="hero min-h-screen">
                 <div class="hero-content border-2 rounded-xl  flex-col lg:gap-12 lg:flex-row">
                   <img src="images/11.png" class="lg:max-w-sm w-3/4 md:w-3/4 rounded-lg shadow-2xl" />
@@ -259,7 +332,7 @@
                         Our Equipment
                       </div>
                       <div class="collapse-content"> 
-                        <p>hello</p>
+                        <p>Equipped with cutting-edge gear, our hockey club ensures that every player is outfitted with top-of-the-line equipment to enhance their performance on the field.</p>
                       </div>
                     </div>
                     <div class="collapse collapse-plus">
@@ -268,7 +341,7 @@
                         Hockey Training
                       </div>
                       <div class="collapse-content"> 
-                        <p>hello</p>
+                        <p>Elevate your game with our intensive hockey training program designed to hone skills, foster teamwork, and build resilience on and off the field. Our comprehensive training curriculum, led by experienced coaches, focuses on refining individual techniques, enhancing tactical awareness, and fostering a deep understanding of the game.</p>
                       </div>
                     </div>
                     <div class="collapse collapse-plus">
@@ -277,7 +350,7 @@
                         Private Lessons
                       </div>
                       <div class="collapse-content"> 
-                        <p>hello</p>
+                        <p>Refine your skills and accelerate your progress with our personalized private hockey lessons.</p>
                       </div>
                     </div>
                     <div class="collapse collapse-plus ">
@@ -286,7 +359,7 @@
                         Ski Touring
                       </div>
                       <div class="collapse-content"> 
-                        <p>hello</p>
+                        <p>Embark on a thrilling adventure with our ski touring experiences that take you beyond traditional skiing boundaries.</p>
                       </div>
                     </div>
                     <div class="collapse collapse-plus ">
@@ -295,7 +368,7 @@
                         Booking
                       </div>
                       <div class="collapse-content"> 
-                        <p>hello</p>
+                        <p>Unlock seamless and stress-free booking experiences with our user-friendly platform. </p>
                       </div>
                     </div>
                     <div class="collapse collapse-plus ">
@@ -304,7 +377,7 @@
                         Pricings
                       </div>
                       <div class="collapse-content"> 
-                        <p>hello</p>
+                        <p>Discover transparent and competitive pricings tailored to suit your needs.</p>
                       </div>
                     </div>
                   </div>
@@ -312,97 +385,100 @@
               </div>
 
         </section>
-        <!-- Radial Progress section -->
-        <section class="container mx-auto my-20">
-            <h2 class="text-center text-3xl font-semibold mb-5">Professional Hockeys Club</h2>
-            <p class="text-center mb-10">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat<br> dolor. Purus urna in sit nullam proin. </p>
-            <div class="grid lg:grid-cols-4 grid-cols-1">
-                <div class="space-y-4 mb-10">
-                    <div class="flex justify-center">
-                        <div class="radial-progress text-[tomato]" style="--value:87;" role="progressbar"><span class="text-black">87%</span></div>
-                    </div>
-                    <h5 class="text-center font-semibold">Prayer Facility</h5>
-                    <p class="text-center">Amet consectetur. Condimentum<br> dignissim adipiscing .</p>
-                </div>
-                <div class="space-y-4 mb-10">
-                    <div class="flex justify-center">
-                        <div class="radial-progress text-green-500" style="--value:95;" role="progressbar"><span class="text-black">95%</span></div>
-                    </div>
-                    <h5 class="text-center font-semibold">Experienced Coach</h5>
-                    <p class="text-center">Amet consectetur. Condimentum<br> dignissim adipiscing .</p>
-                </div>
-                <div class="space-y-4 mb-10">
-                    <div class="flex justify-center">
-                        <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar"><span class="text-black">90%</span></div>
-                    </div>
-                    <h5 class="text-center font-semibold">Senior Player</h5>
-                    <p class="text-center">Amet consectetur. Condimentum<br> dignissim adipiscing .</p>
-                </div>
-                <div class="space-y-4 mb-10">
-                    <div class="flex justify-center">
-                        <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar"><span class="text-black">80%</span></div>
-                    </div>
-                    <h5 class="text-center font-semibold">Training Ground</h5>
-                    <p class="text-center">Amet consectetur. Condimentum<br> dignissim adipiscing .</p>
-                </div>
-            </div>
-        </section>
-        <!-- Program Section Added -->
-        <section class="container mx-auto my-20">
-            <h2 class="text-center text-3xl font-semibold mb-5">Program Sections</h2>
-            <p class="text-center mb-10">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat<br> dolor. Purus urna in sit nullam proin. </p>
-        <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-4">
-            
-            <div class="relative mb-4 lg:mb-0">
-                <img class="w-full h-[300px] brightness-75" src="Images/2.png" alt="">
-                <div class="absolute top-6 left-6 lg:pt-10 lg:pr-4 space-y-4">
-                    <h3 class="text-2xl font-bold text-white">Junior Program</h3>
-                    <p class="text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                    <button class="bg-[#FF4240;] text-white px-4 py-3 rounded-lg">Register Now!</button>
-                </div>
-            </div>
-            <div class="relative mb-4 lg:mb-0">
-                <img class="w-full h-[300px] brightness-75" src="Images/3.png" alt="">
-                <div class="absolute top-6 left-6 lg:pt-10 lg:pr-4 space-y-4">
-                    <h3 class="text-2xl font-bold text-white">Teenager Program</h3>
-                    <p class="text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                    <button class="bg-[#FF4240;] text-white px-4 py-3 rounded-lg">Register Now!</button>
-                </div>
-            </div>
-            <div class="relative lg:col-span-2">
-                <img class="w-full lg:h-[500px] h-[300px] brightness-75" src="Images/4.png" alt="">
-                <div class="absolute top-6 lg:top-56 left-6 lg:pt-10 lg:pr-96 space-y-4">
-                    <h3 class="text-2xl font-bold text-white">Professional Program</h3>
-                    <p class="text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                        enim sagittis turpis in<br> magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                    <button class="bg-[#FF4240;] text-white px-4 py-3 rounded-lg">Register Now!</button>
-                </div>
-            </div>
-        </div>
+        
+       
+        <!-- Get in touch -->
+        <section class="container mx-auto mt-10">
+          <h2 class="text-center text-3xl font-extrabold mb-5">Get In Touch</h2>
+          <p class="text-center mb-10">We are here to help you! How can we help?</p>
+          <div class="flex flex-col lg:flex-row lg:px-5 gap-x-2 lg:justify-evenly">
+            <div class="border-2 lg:w-2/6 rounded-xl p-3">
+              <div class="bg-[#f5f3f3] rounded-xl h-38 p-5 space-y-5 mb-3">
+                <img src="Images/Group 1171275317.png" alt="">
+                <p>Phone Number : <br>
+                  (+62) 123-321-543</p>
 
+              </div>
+              <div class="bg-pink-50 rounded-xl h-38 p-5 space-y-5 mb-3">
+                <img src="Images/Group 1171275318.png" alt="">
+                <p>Email : <br>
+                  hockeys@support.com</p>
+
+              </div>
+              <div class="bg-green-100 rounded-xl h-38 p-5 space-y-5">
+                <img src="Images/Group 1171275321.png" alt="">
+                <p>Location : <br>
+                  152/1 Mohakhali Wireless Gate</p>
+
+              </div>
+            </div>
+            
+            <div class='lg:w-3/5 grid grid-cols-1 lg:grid-cols-2 px-10 gap-4 py-4'>
+              <div class="col-span-2 lg:col-span-1">              
+                <h5>Your Name</h5>
+                <input class="bg-[#f5f3f3] rounded-md w-full h-10 pl-4" type="text" placeholder="Enter your full name">
+              </div>
+              <div class="col-span-2 lg:col-span-1">
+                <h5>Your Email</h5>
+                <input class="bg-[#f5f3f3] rounded-md w-full h-10 pl-4" type="email" placeholder="Enter your email">
+              </div>
+              <div class="col-span-2 lg:col-span-1">
+                <h5>Subject</h5>
+                <input class="bg-[#f5f3f3] rounded-md w-full h-10 pl-4" type="text" placeholder="Enter your subject">
+              </div>
+              <div class="col-span-2 lg:col-span-1">
+                <h5>Phone Number</h5>
+                <input class="bg-[#f5f3f3] rounded-md w-full h-10 pl-4" type="number" placeholder="Enter your phone number">
+              </div>
+              <div class="col-span-2">
+                <h5>Message</h5>
+                <input class="bg-[#f5f3f3] rounded-md w-full h-64 pl-4 pb-44" type="text" placeholder="Write your message">
+              </div>
+              <div class="col-span-2">
+                <button class="w-full bg-[#FF4240] text-white rounded-md py-3 font-bold">Send Message</button>
+              </div>
+             
+                
+                
+               
+                
+            </div>
+           
+             
+              
+            
+          </div>
+          <div class="bg-[#f5f3f3] lg:ml-12 lg:mr-20 text-center py-6 rounded-lg my-10 shadow-lg">
+            <h4 class="font-bold">Social Media</h4>
+            <i class="fa-brands fa-twitter mr-4"></i>
+            <i class="fa-brands fa-facebook-f mr-4"></i>
+            <i class="fa-brands fa-instagram mr-4"></i>
+            <i class="fa-brands fa-github"></i>
+
+          </div>
+          
         </section>
+        
 
     </main>
     <!-- Footer -->
     <footer class="w-full lg:p-14 p-4 bg-[#131318] flex flex-col lg:flex-row text-white justify-between">
-        <div class="space-y-4">
-            <h4 class="text-2xl font-bold">Get In Touch</h4>
-            <p class="text-gray-400">Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat<br> dolor. Purus urna in sit nullam proin. </p>
+        <div class="space-y-4 lg:mb-0 mb-5">
+            <h4 class="text-2xl font-bold text-center lg:text-left">Get In Touch</h4>
+            <p class="text-gray-400 text-center lg:text-left">We are here to help you! <br>How can we help?</p>
             <div>
-            <div class="flex">
+            <div class="flex lg:justify-normal justify-center">
                 <img class="mr-2" src="Images/Frame.png" alt="">
                 <p class="text-gray-400">hockeys@support.com</p>
             </div>
-            <div class="flex">
+            <div class="flex lg:justify-normal justify-center">
                 <img class="mr-2" src="Images/Frame (1).png" alt="">
                 <p class="text-gray-400">(+62) 123-321-543</p>
             </div>
             </div>
             
         </div>
-        <div class="flex">
+        <div class="flex lg:mb-0 mb-5">
             
                
                 <div class="lg:pr-56 pr-10 space-y-4">
@@ -436,12 +512,12 @@
 
         </div>
         <div class="space-y-4">
-            <h5 class="font-bold">Services</h5>
-            <p class="text-gray-400"><a href="">Academy</a></p>
-            <p class="text-gray-400"><a href="">Group Lesson</a></p>
-            <p class="text-gray-400"><a href="">Private Lesson</a></p>
-            <p class="text-gray-400"><a href="">Hockeys for kids</a></p>
-            <p class="text-gray-400"><a href="">Hockeys for Adult</a></p>
+            <h5 class="font-bold text-center lg:text-left">Services</h5>
+            <p class="text-gray-400 text-center lg:text-left"><a href="">Academy</a></p>
+            <p class="text-gray-400 text-center lg:text-left"><a href="">Group Lesson</a></p>
+            <p class="text-gray-400 text-center lg:text-left"><a href="">Private Lesson</a></p>
+            <p class="text-gray-400 text-center lg:text-left"><a href="">Hockeys for kids</a></p>
+            <p class="text-gray-400 text-center lg:text-left"><a href="">Hockeys for Adult</a></p>
 
         </div>
 
